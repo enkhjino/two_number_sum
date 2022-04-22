@@ -39,7 +39,8 @@ function sum(arr, target) {
 
 //console.log(sum([3, 5, -4, 8, 11, 1, -1, 6], 10));
 
-//2 O(N)
+//2 O(N) multiple pointers
+//only works on sorted array
 function sum2(arr, target) {
   //sort array
   var sorted = arr.sort((a, b) => a - b);
